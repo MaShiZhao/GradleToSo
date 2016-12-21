@@ -36,7 +36,8 @@ defaultConfig {
 compile 'com.android.tools.build:gradle-experimental:0.7.0'
 
 2.创建java 
- public class Jni
+
+public class Jni
  {
     static {
         System.loadLibrary("GradleSo");
