@@ -4,6 +4,7 @@ jni java native interface
 ndk native developmentit
 
 Android Studio 生成so文件的两种方法
+
 1. gradle  插件可用 比较方便
 http://www.jianshu.com/p/2690c9964110
 
