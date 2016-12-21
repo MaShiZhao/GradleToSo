@@ -46,10 +46,16 @@ public class Jni
     public static native String stringFromJNI();
 
  }
+ 
 //不知道这两部如何精简
+
 stringFromJNI报错 command+enter
+
 注释掉build.gradle里面的 compile 'com.android.tools.build:gradle-experimental:0.7.0' 
+
 仍然给报错在command+enter
+
+
 3.在app/build/intermediates/ndk/debug/lib 下有so文件
 
 完成
