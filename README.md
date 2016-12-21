@@ -13,7 +13,7 @@ http://www.jianshu.com/p/3494741f0ad1
 
 此demo是方式1
 
-1. 配置local.properties gradle.properties app下的build.gradle
+1.配置local.properties gradle.properties app下的build.gradle
 
 ndk.dir=/Users/MaShiZhao/Android/sdk/ndk-bundle
 sdk.dir=/Users/MaShiZhao/Android/sdk
@@ -34,6 +34,7 @@ defaultConfig {
     }
     
 compile 'com.android.tools.build:gradle-experimental:0.7.0'
+
 2.创建java 
  public class Jni
  {
