@@ -13,7 +13,7 @@ http://www.jianshu.com/p/3494741f0ad1
 
 此demo是方式1
 
-1.配置local.properties gradle.properties app下的build.gradle
+1. 配置local.properties gradle.properties app下的build.gradle
 
 ndk.dir=/Users/MaShiZhao/Android/sdk/ndk-bundle
 sdk.dir=/Users/MaShiZhao/Android/sdk
@@ -34,17 +34,16 @@ defaultConfig {
     }
     
 compile 'com.android.tools.build:gradle-experimental:0.7.0'
-
-2. 创建java 
-public class Jni
-{
+2.创建java 
+ public class Jni
+ {
     static {
         System.loadLibrary("GradleSo");
     }
 
     public static native String stringFromJNI();
 
-}
+ }
 //不知道这两部如何精简
 stringFromJNI报错 command+enter
 注释掉build.gradle里面的 compile 'com.android.tools.build:gradle-experimental:0.7.0' 
